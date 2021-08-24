@@ -18,7 +18,7 @@ import pyaudio
 import datetime
 
 #録音する時間の長さ（秒）
-recsec = 2
+recsec = 10
 iDeviceIndex = 1 #録音デバイスのインデックス番号
  
 FORMAT = pyaudio.paInt16 #音声のフォーマット
